@@ -11,6 +11,7 @@ body {
   margin: 0;
   font-size: 25px;
   font-family: Indie;
+  text-shadow: 1px 1px 2px;
   background-image: url(images/nuggets.webp);
 }
 
@@ -78,11 +79,16 @@ button:hover {
 .sexy,
 .cashew,
 .movie,
-.thirst {
+.thirst,
+.medal {
   display: block;
   margin: 20px auto;
   justify-content: center;
   border: solid black 5px;
+}
+
+.medal {
+  background-color: lightgrey;
 }
 
 li {
