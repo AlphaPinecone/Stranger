@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Indie;
+  src: url(IndieFlower-Regular.ttf);
+}
+
+body {
+  border: groove 8px black;
+  background-color: darkturquoise;
+  display: flex;
+  justify-content: center; /* horizontal */
+  margin: 0;
+  font-size: 25px;
+  font-family: Indie;
+  background-image: url(images/nuggets.webp);
+}
+
+.container {
+  margin: 20px;
+  display: flex;
+  height: 850px;
+  width: 375px;
+}
+
+.page0,
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6 {
+  height: 100%;
+  width: 100%;
+  background-color: darkturquoise;
+  border-radius: 8px;
+  box-shadow: grey;
+}
+
+h1 {
+  padding-top: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.welcomeMsg {
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.button-row-single {
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+  padding: 10px;
+}
+.button-row-double {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  padding: 10px;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+.next,
+.prev {
+  background-color: #cc00ff;
+  height: 30px;
+  width: 70px;
+  border: none;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  color: white;
+}
+
+.baby,
+.sexy,
+.cashew,
+.movie,
+.thirst {
+  display: block;
+  margin: 20px auto;
+  justify-content: center;
+  border: solid black 5px;
+}
+
+li {
+  padding-top: 15px;
+}
+
+em {
+  color: gold;
+}
+.bday {
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  justify-content: center;
+  border: 3px solid black;
+  color: white;
+  font-family: Indie;
+  font-weight: 400;
+  background: linear-gradient(45deg, red, orange, yellow);
+}
+
+.hidden {
+  display: none;
+}
